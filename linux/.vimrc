@@ -12,7 +12,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kien/ctrlp.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
 
 
@@ -476,10 +475,6 @@ set enc=utf-8
 set clipboard=unnamed
 "timeoutlen is used for mapping delays, and ttimeoutlen is used for key code delays
 set timeoutlen=1000 ttimeoutlen=0
-"powerline
-source /Library/Python/2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
-"set font for macvim
-set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h11
 "nerdtree
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
