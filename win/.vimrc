@@ -518,5 +518,8 @@ if has("gui_running")
   endif
 endif
 
+" custom file extension syntax
+au BufRead,BufNewFile *.ts set filetype=javascript
+
 " Use system clipboard
 " set clipboard=unnamed
